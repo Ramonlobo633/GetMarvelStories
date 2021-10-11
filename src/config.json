@@ -1,0 +1,10 @@
+{ 
+    "propeties": {
+        "public_key":"0b03e544dd42ef351146675df3b9d5c4",
+        "private_key":"5287319e5eca678b273c35e4267e4214a7cc48f3",
+        "ts":"1",
+        "limit":"100",
+        "find_character":"https://gateway.marvel.com/v1/public/characters?nameStartsWith={}&apikey={}&hash={}&ts={}",
+        "find_stories":"https://gateway.marvel.com/v1/public/characters/{}/stories?limit={}&apikey={}&hash={}&ts={}&offset={}"
+    }
+}
