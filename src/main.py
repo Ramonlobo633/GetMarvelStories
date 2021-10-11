@@ -44,4 +44,4 @@ for story in stories:
 data = {'id': id_list, 'title':title_list, 'description':description_list, 'type':type_list, 'modified':modified_list, 'characters':characters_list}
 df = pd.DataFrame(data=data)
 print(df.shape)
-df.to_csv('marvel_stories.csv', index=False)
+df.to_csv('src/data/marvel_stories.csv', index=False)
